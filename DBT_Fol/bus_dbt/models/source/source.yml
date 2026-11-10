@@ -1,0 +1,13 @@
+version: 2
+sources:
+  - name: silver
+    catalog: dbt_cat
+    schema: silver
+    tables:
+    - name: Silver_Bus 
+  - name: bronze
+    catalog: dbt_cat
+    schema: bronze
+    tables:
+     - name: bronze_routes 
+     - name: bronze_trips  

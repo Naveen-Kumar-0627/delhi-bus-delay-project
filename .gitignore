@@ -1,0 +1,7 @@
+Static_data_source/
+.env
+.venv/
+venv/
+logs/
+*.log
+__pycache__/
